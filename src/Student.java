@@ -20,7 +20,7 @@ public class Student {
 
         Student Student2 = new Student();
         Student2.reg_number = "21/112/BIT-J";
-        Student2.firstname = "Sabi";
+        Student2.firstname = "Sabidear";
         Student2.lastname = "yafiet";
         Student2.programme = "BIT";
 
@@ -38,12 +38,23 @@ public class Student {
         Student3.programme = "HEC";
 
 
-
-
         System.out.println("The registration number is "+Student3.reg_number);
         System.out.println("The firstname is "+Student3.firstname);
         System.out.println("The lastname is "+Student3.lastname);
         System.out.println("The programme is "+Student3.programme);
+
+
+        Student Student4 = new Student();
+        Student4.reg_number = "21/1780/BSCS-j";
+        Student4.firstname = "Princess";
+        Student4.lastname = "Betty";
+        Student4.programme = "BSCS";
+
+
+        System.out.println("The registration number is "+Student4.reg_number);
+        System.out.println("The firstname is "+Student4.firstname);
+        System.out.println("The lastname is "+Student4.lastname);
+        System.out.println("The programme is "+Student4.programme);
 
 
     }
